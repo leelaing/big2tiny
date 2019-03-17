@@ -1,0 +1,32 @@
+{
+  "name": "big2tiny",
+  "version": "1.0.0",
+  "description": "My Big2Tiny Website",
+  "author": "Lee Laing <big2tiny@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.14",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "nuxt": "^2.0.0",
+    "vue": "^2.6.9"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "nodemon": "^1.18.10"
+  }
+}
